@@ -6,4 +6,7 @@ go语言计算代码行数工具
 	3.剔除文件中的空行，仅仅计算实际的代码行数  
 	4.···(待添加:可设置剔除注释)  
 **运行命令举例**  
-例如统计当前文件夹下所有的go语言代码，运行命令：go run main.go --platform=windows --src=./ --suffix=go
+例如统计当前文件夹下所有的go语言代码命令:  
+```
+go run main.go --platform=windows --src=./ --suffix=go
+```
