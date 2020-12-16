@@ -9,5 +9,5 @@ go语言计算代码行数工具
 **运行命令举例**  
 例如统计当前文件夹下所有的go语言代码命令:  
 ```
-go run main.go --platform=windows --src=./ --suffix=go --ignore=true
+go run main.go --platform=windows --src=. --suffix=go --ignore=true
 ```
