@@ -13,7 +13,7 @@ func main() {
 	platform := flag.String("platform", "Windows", "")
 	src := flag.String("src", ".", "")
 	suffix := flag.String("suffix", "go", "")
-	ignore := flag.Bool("ignore", true, "")
+	ignore := flag.Bool("ignore", false, "")
 
 	flag.Parse()
 
